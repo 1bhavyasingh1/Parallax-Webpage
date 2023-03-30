@@ -1,0 +1,107 @@
+header{
+    padding: 30px 100px;
+}
+Logo spaced from left
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+creates distance betwwn logo and HomeAbout
+
+
+
+
+
+
+
+.navigation a {
+    margin-left: 20px;
+    padding: 6px 15px;
+}
+distance between HomeAboutService
+
+
+
+
+
+.navigation a{
+    transition: .5s;
+}
+.navigation a:hover {
+    color: #333;
+}
+These work together
+
+
+
+
+
+
+
+
+
+
+navigation a{
+     position: relative;
+}
+position: relative; was added later
+without this putting background: #fff; made the page blank white
+
+
+
+
+
+
+
+
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+to get everything on one page
+
+
+
+
+
+
+
+
+.sec {
+    padding: 30px 100px;
+}
+gets the paragraph in center
+
+
+
+
+
+
+
+
+
+
+header {
+    position: absolute;
+}
+If I don't put this position-absolute, I wont get the hover effect on HomeAbout
+
+
+
+
+
+
+
+body {
+    overflow-x: hidden;
+}
+Cancels the horizontal-scrollbar
